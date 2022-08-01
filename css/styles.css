@@ -1,0 +1,606 @@
+/*fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
+/*selector universal*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+footer {
+  background-image: url(/assets/images/footerbackgroundimg.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  width: 100%;
+}
+.containerfooterall {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px;
+}
+.containerfooter {
+  display: flex;
+  align-items: flex-start;
+}
+.colum1 {
+  max-width: 400px;
+  font-family: "Oswald", sans-serif;
+}
+.colum1 h2 {
+  font-size: 26px;
+}
+.colum1 p {
+  font-size: 14px;
+  margin-top: 20px;
+}
+.colum2 {
+  max-width: 400px;
+}
+.colum2 h2 {
+  font-size: 26px;
+  font-family: "Oswald", sans-serif;
+}
+.fila {
+  margin-top: 20px;
+  display: flex;
+}
+.fila img {
+  width: 36px;
+  height: 36px;
+}
+.fila label {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.colum3 {
+  max-width: 400px;
+}
+.colum3 h2 {
+  font-size: 26px;
+  font-family: "Oswald", sans-serif;
+}
+.fila2 {
+  margin-top: 20px;
+  display: flex;
+}
+.fila2 img {
+  width: 36px;
+  height: 36px;
+}
+.fila2 label {
+  margin-left: 20px;
+  max-width: 150px;
+  margin-top: 10px;
+}
+.containerlowfooter {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.copyright {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-family: "Oswald", sans-serif;
+}
+.logoheader {
+  display: flex;
+  align-items: center;
+}
+header {
+  background-color: rgba(56, 148, 188, 255);
+  width: 100%;
+  min-height: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header h1 {
+  margin-left: 15px;
+  font-size: 28px;
+  color: white;
+  font-family: "Oswald", sans-serif;
+}
+header div img {
+  height: 53px;
+  width: 53px;
+  padding: 8px;
+  margin-left: 3px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.navbar li {
+  justify-content: space-between;
+  padding: 10px;
+  display: inline-block;
+  margin-left: 10px;
+  list-style: none;
+}
+.navbar li a {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
+}
+/*Medidas*/
+html {
+  font-size: 20px;
+}
+/*index*/
+body {
+  background-image: url(/assets/backgrounds/26358.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+.art1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.art1 img {
+  float: left;
+  width: 50%;
+  padding-right: 20px;
+  border-radius: 55px;
+}
+.titleart1 {
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  padding: 15px;
+}
+.art1 p {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  padding: 20px;
+  line-height: 35px;
+}
+
+.art2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.art2 img {
+  padding-left: 20px;
+  border-radius: 55px;
+}
+.art2 h2 {
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  padding: 15px;
+}
+.art2 p {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  padding: 20px;
+  line-height: 35px;
+}
+
+.art3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.art3 h2 {
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  padding: 15px;
+}
+.art3 p {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  padding: 20px;
+  line-height: 35px;
+}
+.art3 img {
+  float: left;
+  padding-right: 20px;
+  border-radius: 55px;
+}
+/*CURSOS*/
+.cursostitle {
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  padding: 15px;
+}
+.artcursos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.artcursos p {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  padding: 20px;
+  line-height: 35px;
+}
+.artcursos h2 {
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+}
+.imgc1 {
+  border-radius: 55px;
+  float: left;
+  float: inline-start;
+  padding-right: 20px;
+}
+.imgc2 {
+  border-radius: 55px;
+  float: right;
+  float: inline-start;
+  padding-right: 20px;
+}
+.imgc3 {
+  border-radius: 55px;
+  float: left;
+  float: inline-start;
+  padding-right: 20px;
+}
+.imgc4 {
+  border-radius: 55px;
+  float: right;
+  float: inline-start;
+  padding-right: 20px;
+}
+
+/*SERVICIOS*/
+.serviciostitle {
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  padding-top: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.artservicios {
+  display: flex;
+}
+.artservicios p {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+  line-height: 25px;
+}
+.artservicios img {
+  float: right;
+  max-width: fit-content;
+  border-radius: 55px;
+}
+.temascursos {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.temascursos h2 {
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  padding: 10px;
+  padding-top: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.temascursos li {
+  padding-top: 20px;
+  padding-right: 60px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+p img {
+  float: right;
+  width: 40%;
+  padding-left: 20px;
+}
+.temascursos ul {
+  padding-left: 30px;
+  padding-bottom: 13px;
+}
+/*Contacto*/
+
+.formularios {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  border-radius: 100px;
+  width: 100%;
+}
+.logo {
+  text-align: center;
+  font-size: 3em;
+}
+
+.logo span {
+  color: #b70e21;
+}
+
+.contact-wrapper {
+  box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.3);
+}
+
+.contact-wrapper > * {
+  padding: 1em;
+}
+
+.contact-form {
+  background-color: #56c8f1;
+}
+
+.contact-form form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.contact-form form label {
+  display: block;
+}
+
+.contact-form form p {
+  margin: 0;
+  padding: 1em;
+}
+
+.contact-form form .block {
+  grid-column: 1 / 3;
+}
+
+.contact-form form input,
+.contact-form form textarea {
+  width: 100%;
+  padding: 0.7em;
+  border: none;
+  background: none;
+  outline: 0;
+  color: #fff;
+  border-bottom: 1px solid #305fd6;
+}
+
+/* CONTACT INFO */
+.contact-info {
+  background-color: rgba(56, 148, 188, 255);
+}
+
+.contact-info h4,
+.contact-info ul,
+.contact-info p {
+  text-align: center;
+  margin: 0 0 1rem 0;
+}
+
+.textarealabel {
+  padding: 30px;
+  padding-top: 20px;
+}
+.formularios input {
+  width: 100%;
+}
+/*NOSOTROS*/
+.qstitle {
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+}
+.qscontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.qscontainer img {
+  border-radius: 55px;
+  padding: 20px;
+}
+.qscontainer p {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  padding: 20px;
+  line-height: 30px;
+}
+/*SERVICIOS*/
+.artservicios p {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  padding: 20px;
+  line-height: 30px;
+}
+
+/*MEDIA QUERIES*/
+@media screen and (min-width: 1024px) {
+  .colum1 {
+    padding-right: 40px;
+  }
+  .colum2 {
+    padding-left: 50px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  /*header*/
+  header {
+    flex-direction: column;
+    width: 576px;
+  }
+  .logoheader {
+    justify-content: center;
+    max-width: 576px;
+  }
+  .logoheader h1 {
+    font-size: 25px;
+  }
+  .navbar {
+    max-width: 100%;
+    justify-content: center;
+  }
+
+  .navbar li a {
+    font-size: 15px;
+    text-transform: uppercase;
+  }
+  /*header*/
+  /*main*/
+  .titleart1 {
+    font-size: 24px;
+  }
+  .art1 p {
+    font-size: 17px;
+  }
+  .art1 p img {
+    float: none;
+    width: 100%;
+  }
+  .art2 h2 {
+    font-size: 28px;
+  }
+  .art2 img {
+    float: none;
+    width: 100%;
+  }
+  .art2 p {
+    font-size: 17px;
+  }
+  .art3 h2 {
+    font-size: 28px;
+  }
+  .art3 img {
+    float: none;
+    width: 100%;
+  }
+  .art3 p {
+    font-size: 17px;
+  }
+  /*main*/
+  /*footer*/
+  footer {
+    background-image: url(/assets/images/uwu.jpg);
+    background-repeat: no-repeat;
+  }
+  .containerlowfooter {
+    padding: 1;
+  }
+  .containerlowfooter small {
+    font-size: 15px;
+    padding-top: 30px;
+  }
+}
+.containerfooter {
+  height: 200px;
+}
+.smalltext {
+  padding-top: 15px;
+}
+.containerfooterall {
+  height: 320px;
+}
+.colum1 {
+  width: 33%;
+  font-family: "Oswald", sans-serif;
+}
+.colum1 h2 {
+  font-size: 20px;
+}
+.colum1 p {
+  font-size: 14px;
+  margin-top: 20px;
+}
+.colum2 {
+  width: 33%;
+}
+.colum2 h2 {
+  font-size: 25px;
+}
+.fila {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+}
+.fila img {
+  width: 26px;
+  height: 26px;
+  margin-top: 10px;
+}
+.fila label {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.colum3 {
+  width: 33%;
+}
+.colum3 h2 {
+  font-size: 25px;
+}
+.fila2 {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+}
+.fila2 img {
+  width: 26px;
+  height: 26px;
+}
+.fila2 label {
+  margin-left: 20px;
+  max-width: 150px;
+  margin-top: 10px;
+}
+/*Cursos*/
+.cursostitle {
+  font-size: 30px;
+}
+.artcursos h2 {
+  font-size: 25px;
+}
+.artcursos img {
+  float: none;
+  width: 100%;
+}
+.artcursos p {
+  font-size: 18px;
+  margin-top: 20px;
+}
+/*NOSOTROS*/
+.qscontainer img {
+  width: 100%;
+}
+.qscontainer p {
+  font-size: 18px;
+}
+/*servicios*/
+.serviciostitle {
+  font-size: 22px;
+}
+.artservicios {
+  display: flex;
+  flex-direction: column;
+}
+.artservicios p {
+  font-size: 18px;
+  margin-top: 20px;
+}
+.imgrcp {
+  width: 100%;
+  float: none;
+  padding: 10px;
+}
