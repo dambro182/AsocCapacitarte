@@ -8,7 +8,63 @@
   padding: 0;
   box-sizing: border-box;
 }
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  background-image: url(/assets/images/footerbackgroundimg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: auto;
+}
+.container-sm {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
 
+.fila {
+  max-width: 56, 22;
+  font-family: "Oswald", sans-serif;
+  padding: 10px;
+}
+.fila img {
+  width: 36px;
+  height: 36px;
+}
+.fila2 {
+  max-width: 56, 22;
+  font-family: "Oswald", sans-serif;
+  padding: 10px;
+}
+.fila2 img {
+  width: 36px;
+  height: 36px;
+}
+.container-sm h2 {
+  font-size: 30px;
+  font-family: "Oswald", sans-serif;
+}
+.container-sm p {
+  font-size: 18px;
+  font-family: "Oswald", sans-serif;
+}
+
+.containerlowfooter {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.copyright {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-family: "Oswald", sans-serif;
+}
+
+/*
 footer {
   background-image: url(/assets/images/footerbackgroundimg.png);
   background-size: 100%;
@@ -89,6 +145,7 @@ footer {
   font-weight: bold;
   font-family: "Oswald", sans-serif;
 }
+*/
 .fondoheader {
   background-color: rgba(56, 148, 188, 255);
 }
@@ -391,39 +448,32 @@ p img {
 }
 
 /*MEDIA QUERIES*/
-@media screen and (min-width: 1024px) {
-  .colum1 {
-    padding-right: 40px;
-  }
-  .colum2 {
-    padding-left: 50px;
-  }
-}
-
+/*
 @media screen and (max-width: 576px) {
   /*header*/
-  header {
-    flex-direction: column;
-    width: 576px;
-  }
-  .logoheader {
-    justify-content: center;
-    max-width: 576px;
-  }
-  .logoheader h1 {
-    font-size: 25px;
-  }
-  .navbar {
-    max-width: 100%;
-    justify-content: center;
-  }
+header {
+  flex-direction: column;
+  width: 576px;
+}
+.logoheader {
+  justify-content: center;
+  max-width: 576px;
+}
+.logoheader h1 {
+  font-size: 25px;
+}
+.navbar {
+  max-width: 100%;
+  justify-content: center;
+}
 
-  .navbar li a {
-    font-size: 15px;
-    text-transform: uppercase;
-  }
-  /*header*/
-  /*main*/
+.navbar li a {
+  font-size: 15px;
+  text-transform: uppercase;
+}
+/*header*/
+/*main*/
+/*
   .titleart1 {
     font-size: 24px;
   }
@@ -455,19 +505,20 @@ p img {
     font-size: 17px;
   }
   /*main*/
-  /*footer*/
-  footer {
-    background-image: url(/assets/images/uwu.jpg);
-    background-repeat: no-repeat;
-  }
-  .containerlowfooter {
-    padding: 1;
-  }
-  .containerlowfooter small {
-    font-size: 15px;
-    padding-top: 30px;
-  }
+/*footer*/
+/*
+footer {
+  background-image: url(/assets/images/uwu.jpg);
+  background-repeat: no-repeat;
 }
+.containerlowfooter {
+  padding: 1;
+}
+.containerlowfooter small {
+  font-size: 15px;
+  padding-top: 30px;
+}
+/*
 .containerfooter {
   height: 200px;
 }
@@ -521,15 +572,9 @@ p img {
   align-items: center;
   font-size: 16px;
 }
-.fila2 img {
-  width: 26px;
-  height: 26px;
-}
 .fila2 label {
-  margin-left: 20px;
-  max-width: 150px;
-  margin-top: 10px;
 }
+/*
 /*Cursos*/
 .cursostitle {
   font-size: 30px;
