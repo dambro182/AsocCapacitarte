@@ -75,47 +75,45 @@
 
         <div class="contact-wrapper animated bounceInUp">
           <div class="contact-form">
-            <h3>!Envianos Un Mensaje!</h3>
-            <form action="">
+            <h3>! Envianos Tu Mensaje !</h3>
+            <form id="contactform1" action="https://formsubmit.co/dambro184@gmail.com" method="POST">
               <p>
                 <label>Nombre Completo</label>
-                <input type="text" name="fullname" />
+                <input type="text" pattern="^[A-Za-z]+$" title="El campo sólo acepta letras" autocomplete="off" placeholder="Nombre Completo" required name="fullname" />
               </p>
               <p>
                 <label>Email</label>
-                <input type="email" name="email" />
+                <input type="email" placeholder="Email@gmail.com" autocomplete="off" required name="email" />
               </p>
               <p>
                 <label>Telefono</label>
-                <input type="tel" name="phone" />
+                <input type="tel" placeholder="Tu Telefono"  autocomplete="off" name="phone" />
               </p>
               <p>
                 <label>Asunto</label>
-                <input type="text" name="affair" />
+                <input type="text" placeholder="Motivo" autocomplete="off" required name="affair" />
               </p>
               <p class="block">
                 <label>Mensaje</label>
-                <textarea name="message" rows="3"></textarea>
+                <textarea name="message" placeholder="Tu Mensaje" autocomplete="off" rows="3"></textarea>
               </p>
+              
+              
             </form>
             <div class="wrap">
-              <button class="buttonform">Enviar</button>
+              <input class="buttonform" form="contactform1" value="Enviar" type="submit">
             </div>
           </div>
           <div class="contact-info">
-            <h4>Mas Informacion</h4>
+            
             <ul>
-              <li><i class="fas fa-map-marker-alt"></i> Buenos Aires</li>
-              <li><i class="fas fa-phone"></i> +5491123762102</li>
-              <li>
-                <i class="fas fa-envelope-open-text"></i>sergiodam@hotmail.es
-              </li>
+              <h4>Contactos Alternativos</h4>
+              <li> Buenos Aires</li>
+              <li>+5491123762102</li>
+              <li>sergiodam@hotmail.es</li>
+              <p>ASOCIACION CAPACITARTE 2022</p>
             </ul>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero
-              provident ipsam necessitatibus repellendus?
-            </p>
-            <p>Asociacion Capacitarte</p>
+            
           </div>
         </div>
       </div>
